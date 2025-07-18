@@ -237,5 +237,6 @@ def reduktion_auf_1_alt():
     plt.suptitle("PCA-Reduktion auf eine Dimension", fontsize=16)
     plt.show()
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
+    daten_in_hauptkompenenten()
     reduktion_auf_1_neu()
